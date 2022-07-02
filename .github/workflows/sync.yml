@@ -1,0 +1,25 @@
+name: Sync
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+
+      - name: Sync Wiki
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+        with:
+          source-directory: doc
+          destination-github-username: Querz
+          destination-repository-name: mcaselector.wiki
+          user-email: wiki@querz.net
+          target-branch: main
