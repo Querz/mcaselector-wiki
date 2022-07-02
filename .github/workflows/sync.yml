@@ -22,4 +22,4 @@ jobs:
           destination-github-username: Querz
           destination-repository-name: mcaselector.wiki
           user-email: wiki@querz.net
-          target-branch: main
+          target-branch: master
