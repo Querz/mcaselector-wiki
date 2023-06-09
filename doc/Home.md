@@ -28,7 +28,7 @@
 
 ## Articles and Tutorials
 
-[Custom Filter Tutorial](articles/Custom-Filter-Tutorial)
+[Custom Filter Tutorial](Custom-Filter-Tutorial)
 
 ## Development
 
