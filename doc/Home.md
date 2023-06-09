@@ -26,6 +26,10 @@
 
 [CLI Mode](CLI-Mode)
 
+## Articles and Tutorials
+
+[Custom Filter Tutorial](articles/Custom-Filter-Tutorial)
+
 ## Development
 
 [Caching](Caching)
