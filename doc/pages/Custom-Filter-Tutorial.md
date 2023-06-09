@@ -60,7 +60,7 @@ Minecraft uses the **N**amed **B**inary **T**ag (NBT) format to store data in th
 ## 2.1 The chunk editor
 To open the chunk editor in MCA, first use `CTRL + L` to clear the selection (make sure to save the selection if you want to work with it again), then select a **single** chunk and press `CTRL + B` to open the chunk editor. *If you selected more than one chunk, the editor won't open.* Now that the chunk editor is opened you may see something like this:
 
-![chunk editor](https://cdn.discordapp.com/attachments/997458921394536469/998294109154447432/unknown.png)
+![chunk editor](https://github.com/Querz/mcaselector-wiki/blob/main/doc/images/Custom-Filter-Tutorial/edit_chunk.png)
 
 What you can see now is all of the data that is stored inside this chunk, split into the 3 tabs `region`, `poi` and `entities` (they are important later).
 Below that is the tree structure representation of the current tab. Browse a bit around and make yourself familiar with it as it will be important later.
@@ -181,7 +181,7 @@ Now let's create a filter that is a bit more difficult. If you understand this, 
 We will create a filter that checks if the chunk section at the bottom of the world (`y=-64` to `y=-49`) contains the deep dark biome.
 1. For the first part of the comparison we need to "navigate" to the biomes palette of the section with the section y value of `-4`. Every section in a chunk has its own y coordinate. The lowest value is `-4` (`y=-64` to `y=-49`) and the highest is `19` (`y=304` to `y=319`). So we need to find the section with a y value of `-4`. This would be pretty complicated if we would actually need to check for this but minecraft stores the sections in a list from lowest y value to highest so it's pretty easy to get the desired section.
 
-   ![chunk editor section](https://cdn.discordapp.com/attachments/997458921394536469/1069230002266177618/image.png)
+   ![chunk editor section](https://github.com/Querz/mcaselector-wiki/blob/main/doc/images/Custom-Filter-Tutorial/sections.png)
 
    As you can see in the image above, every section has a y value. As I mentioned the sections are stored in a list (`ListTag`) from lowest to highest y value. So `-4` should be at the top, right? But above `-4` is another section, so there is a bug? No. Minecraft actually stores one section more below `-4`, which I guess resembles the void. So there are actually sections stored from `-5` to `19`. Knowing this we now know that our desired section is stored at the list index `1` (instead of `0`).
    Putting all this together we get `region.getList("sections").get(1)` which gives us the section with the y value of `-4`. Now we just need to navigate to the biomes list using `.getCompound("biomes").getList("palette")` and if we string both paths together and save it in a variable we get `var palette = region.getList("sections").get(1).getCompound("biomes").getList("palette")` which gives us the biomes palette (the different biome types existing in this section) of the lowest chunk section we can build in.
