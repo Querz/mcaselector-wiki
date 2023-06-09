@@ -15,6 +15,9 @@
 * [NBT Changer](NBT-Changer)
 * [CLI Mode](CLI-Mode)
 
+**Articles and Tutorials**
+* [Custom Filter Tutorial](Custom-Filter-Tutorial)
+
 **Development**
 * [Caching](Caching)
 * [Debugging](Debugging)
