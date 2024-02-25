@@ -16,7 +16,7 @@ The following values can be changed:
 | Timestamp                | int        | The time in epoch seconds when the chunk was last saved.                                                                                                                                                                                                                                                     |
 | LastUpdate               | long       | The time in ticks since world creation when the chunk was last saved.                                                                                                                                                                                                                                        |
 | Status                   | String     | The status of the chunk generation. Only recognized by Minecraft 1.13+ (DataVersion 1444+)                                                                                                                                                                                                                   |
-| Biome                    | String/int | A biome name or ID. This sets all biomes of this chunk to a single biome. For a reference of biome names and IDs, have a look at the [Wiki](https://minecraft.gamepedia.com/Java_Edition_data_values#Biomes). Custom biomes can be specified by using single quotes (') around a biome ID.                   |
+| Biome                    | String/int | A biome name or ID. This sets all biomes of this chunk to a single biome. For a reference of biome names and IDs, have a look at the [Wiki](https://minecraft.wiki/Java_Edition_data_values#Biomes). Custom biomes can be specified by using single quotes (') around a biome ID.                            |
 | ReplaceBlocks            | String     | A comma separated list of block replacements in the format `<block-name>=<block-name\                                                                                                                                                                                                                        |block-nbt>[;<tile-nbt>]`. Custom block names can be specified by surrounding them with single quotes. |
 | DeleteEntities           | boolean    | If set to `1` or `true`, all entities in that chunk will be deleted.                                                                                                                                                                                                                                         |
 | DeleteSections           | boolean    | One or a range of section indices. A range has the format `<from>:<to>`, inclusive. Omitting `<from>` sets the lowest possible value, omitting `<to>` sets the highest possible value. `:` or `true` means _all_ sections. Multiple ranges or single indices can be defined by separating them with a comma. |
@@ -33,7 +33,7 @@ its content, will be ignored.
 A string representation of the to-be-changed fields is printed in a text field below the editor. When entering a
 valid string into this field directly, press `Enter` to parse it into the editor.
 
-For more information about the fields have a look at the chunk format description on [Minecraft Wiki](https://minecraft.gamepedia.com/Chunk_format).
+For more information about the fields have a look at the chunk format description on [Minecraft Wiki](https://minecraft.wiki/Chunk_format).
 
 ## Options
 
