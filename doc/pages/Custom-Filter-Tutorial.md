@@ -68,7 +68,7 @@ At the bottom you can see 13 icons. These icons are used for insertion (and remo
 
 ## 2.2 Specification
 Each tag holds a different value. Most are numbers but there are also string-tags and even tags that contain other tags.
-For a more detailed explanation of the tags [look here](https://minecraft.fandom.com/wiki/NBT_format#Format_of_each_type).  
+For a more detailed explanation of the tags [look here](https://minecraft.wiki/NBT_format#Format_of_each_type).  
 *I strongly recommend to take a look at it as it is useful for a better understanding of the custom filter!*
 
 ## 2.3 Appearance in MCA
