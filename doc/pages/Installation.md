@@ -7,7 +7,7 @@
 [**Download Version <!--vs-->2.3<!--ve--> (Windows Installer)**](https://github.com/Querz/mcaselector/releases/download/2.3/MCA_Selector_Setup.exe)
 
 "Requirements":
-* Windows 7-10 64bit
+* Windows 7-11 64bit
 * At least 4 GB of RAM
 
 ---
@@ -16,7 +16,7 @@
 
 "Requirements":
 * Either:
-  * 64bit JRE 17+, with JavaFX either pre-packed or installed separately
+  * 64bit JRE 21+, with JavaFX either pre-packed or installed separately
 * A computer
   * At least 6 GB of RAM. If lower, more RAM has to manually be assigned to the JVM using the `-Xmx` argument.
     Assigning 4 GB is recommended.
@@ -28,7 +28,7 @@ The following steps describe a way to run MCA Selector using a JRE or JDK with p
 With zulu JRE-FX:
 For Windows:
 
-* Download the JRE-FX-17 from [HERE](https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-fx-jre17.0.1-win_x64.zip) into an
+* Download the JRE-FX-21 from [HERE](https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-fx-jre21.0.2-win_x64.zip) into an
   empty folder.
 * Move the previously downloaded `mcaselector-2.3.jar` into the same folder. Extract the content of the
   downloaded .zip file into this folder.
@@ -39,16 +39,16 @@ For Windows:
 
 For MacOS:
 
-* Download the JRE-FX-17 from [HERE](https://cdn.azul.com/zulu/bin/zulu17.30.51-ca-fx-jre17.0.1-macosx_x64.zip) ([HERE](https://cdn.azul.com/zulu/bin/zulu17.34.19-ca-fx-jre17.0.3-macosx_aarch64.zip) for Apple M1) into
+* Download the JRE-FX-21 from [HERE](https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-fx-jre21.0.2-macosx_x64.zip) ([HERE](https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-fx-jre21.0.2-macosx_aarch64.zip) for Apple M1+) into
   an empty folder.
 * Extract the content of the downloaded .zip file into this folder.
 * Press `Cmd+Space`, type `Terminal` and press `Enter`. Go into the previously extracted folder and drag and drop
-  the `zulu-17.jdk/Contents/Home/bin/java` into the terminal. Continue to type `-jar ` (with a space at the end) and
+  the `zulu-21.jre/Contents/Home/bin/java` into the terminal. Continue to type `-jar ` (with a space at the end) and
   drag-and drop the `mcaselector-2.3.jar` into the terminal as well, the press `Enter`.
 
 For Linux:
 
-* Download the JRE-FX-17 from [HERE](https://cdn.azul.com/zulu/bin/zulu17.30.15-ca-fx-jre17.0.1-linux_x64.tar.gz)
+* Download the JRE-FX-21 from [HERE](https://cdn.azul.com/zulu/bin/zulu21.32.17-ca-fx-jre21.0.2-linux_x64.tar.gz)
   into an empty folder.
 * Extract the content of the downloaded .tar.gz file into this folder.
 * Open your terminal of choice and navigate in the extracted folder into `bin`, then run `./java -jar
@@ -76,7 +76,7 @@ For MacOS:
 * Press `Cmd+Space`, type `Terminal` and press `Enter`.
 
 Type the command `java -version` and press `Enter`. If the output shows that your java command is linked to a Java
-version older than 17, make sure that you have Java 17 installed or proceed with [Using a JRE or JDK with pre-packed
+version older than 21, make sure that you have Java 21 installed or proceed with [Using a JRE or JDK with pre-packed
 JavaFX (the simple way)](#using-a-jre-or-jdk-with-pre-packed-javafx-the-simple-way).
 
 For Windows and MacOS:
