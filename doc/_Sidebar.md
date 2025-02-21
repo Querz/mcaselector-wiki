@@ -19,6 +19,7 @@
 * [Custom Filter Tutorial](Custom-Filter-Tutorial)
 
 **Development**
+* [Contributing](Contributing)
 * [Caching](Caching)
 * [Debugging](Debugging)
 * [Checkout and Building](Checkout)

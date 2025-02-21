@@ -1,3 +1,16 @@
+## Contributing to the Wiki
+
+Because GitHub doesn't support Pull-Requests for a project's Wiki, there is a separate project mirroring MCA Selector's
+Wiki here:
+
+**[MCA Selector Wiki](https://github.com/Querz/mcaselector-wiki)**
+
+This repository uses a GitHub Action to automatically push all changes to the MCA Selector Wiki. Simply create a
+Pull-Request in this repository with your desired change or addition. A very good example of a contribution is
+[this tutorial about custom chunk filters by 3D_MAMA](Custom-Filter-Tutorial).
+
+---
+
 ## Contributing translations
 
 Translations are located in [resources/lang](https://github.com/Querz/mcaselector/tree/master/src/main/resources/lang),
@@ -61,3 +74,9 @@ biome dependent tinting, static tinting or simply a static color, as well as inf
 
 If you would like to add a feature or fix a bug yourself, you can create a Pull Request. When adding or changing code,
 please keep it readable (existing code may not be a good example) and keep the formatting generally similar to existing code.
+
+---
+
+## Coffee?
+
+[![paypal](https://img.shields.io/badge/donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3PV2GDWZL8HCA)

@@ -1,1 +1,1 @@
-[![Home](https://img.shields.io/badge/-Home-blue)](Home) [![chat](https://img.shields.io/discord/722924391805223113?logo=discord)](https://discord.gg/h942U8U)
+[![Home](https://img.shields.io/badge/-Home-blue)](Home) [![paypal](https://img.shields.io/badge/donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3PV2GDWZL8HCA) [![chat](https://img.shields.io/discord/722924391805223113?logo=discord)](https://discord.gg/h942U8U) 

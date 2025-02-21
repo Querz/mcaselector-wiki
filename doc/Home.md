@@ -32,6 +32,8 @@
 
 ## Development
 
+[Contributing](Contributing)
+
 [Caching](Caching)
 
 [Debugging](Debugging)
