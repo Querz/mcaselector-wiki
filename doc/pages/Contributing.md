@@ -54,7 +54,7 @@ server are automatically downloaded. The assets in the Minecraft client are pars
 the Minecraft server generates reports. In addition, heightmap information is extracted from an automatically created
 debug world, as well as structure and entity names.
 
-```java -cp mcaselector-2.5.1.jar net.querz.mcaselector.version.mapping.generator.Main <version>```
+```java -cp mcaselector-2.5.2.jar net.querz.mcaselector.version.mapping.generator.Main <version>```
 
 Where `<version>` needs to be replaced by the desired Minecraft version or snapshot.
 
