@@ -58,6 +58,8 @@ debug world, as well as structure and entity names.
 
 Where `<version>` needs to be replaced by the desired Minecraft version or snapshot.
 
+Running the generator requires the java version of the current Minecraft version or higher. 
+
 All generated mappings can then be found in `tmp/<version>/configs/`, in addition to accumulated mappings from previous
 versions. Those are needed in MCA Selector's UI, when e.g. validating biome names (since older Minecraft versions may
 have had different biome names). `tmp/<version>/configs/colors.json`

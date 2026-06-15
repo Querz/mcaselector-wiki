@@ -4,15 +4,23 @@
 
 ---
 
-[**Download Version <!--vs-->2.8<!--ve--> (Windows Installer)**](https://github.com/Querz/mcaselector/releases/download/2.8/MCA_Selector_Setup.exe)
+[**Download Version <!--vs-->2.8<!--ve--> (Windows Installer)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-setup.exe)
 
-"Requirements":
-* Windows 7-11 64bit
-* At least 4 GB of RAM
+[**Download Version <!--vs-->2.8<!--ve--> (macOS arm64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-aarch64.dmg)
+
+[**Download Version <!--vs-->2.8<!--ve--> (macOS x64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-x64.dmg)
+
+[**Download Version <!--vs-->2.8<!--ve--> (DEB arm64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-aarch64.deb)
+
+[**Download Version <!--vs-->2.8<!--ve--> (DEB x64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-x64.deb)
+
+[**Download Version <!--vs-->2.8<!--ve--> (RPM arm64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-aarch64.rpm)
+
+[**Download Version <!--vs-->2.8<!--ve--> (RPM x64)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8-x64.rpm)
 
 ---
 
-[**Download Version <!--vs-->2.8<!--ve--> (Universal)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8.jar)
+[**Download Version <!--vs-->2.8<!--ve--> (Universal jar)**](https://github.com/Querz/mcaselector/releases/download/2.8/mcaselector-2.8.jar)
 
 "Requirements":
 * Either:
