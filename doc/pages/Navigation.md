@@ -24,8 +24,8 @@ As soon as a world or dimension has been opened, the map can be navigated using 
 in a 16x16 area.</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/overview_zoomed_in.png">
-          <img src="../images/Navigation/overview_zoomed_in.png" width="300">
+        <a href="images/Navigation/overview_zoomed_in.png">
+          <img src="images/Navigation/overview_zoomed_in.png" width="300">
         </a>
       </p>
     </td>
@@ -35,8 +35,8 @@ in a 16x16 area.</td>
 A region is an area of 512x512 blocks (32x32 chunks).</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/overview_zoomed_out.png">
-          <img src="../images/Navigation/overview_zoomed_out.png" width="300">
+        <a href="images/Navigation/overview_zoomed_out.png">
+          <img src="images/Navigation/overview_zoomed_out.png" width="300">
         </a>
       </p>
     </td>
@@ -46,8 +46,8 @@ A region is an area of 512x512 blocks (32x32 chunks).</td>
 parsed at this level of detail, it only reads the file headers to increase performance.</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/overview_low_detail.png">
-          <img src="../images/Navigation/overview_low_detail.png" width="300">
+        <a href="images/Navigation/overview_low_detail.png">
+          <img src="images/Navigation/overview_low_detail.png" width="300">
         </a>
       </p>
     </td>
@@ -58,8 +58,8 @@ not particularly helpful.<br>To start rendering at a lower Y-level, the height s
 adjusted to start rendering below the Nether ceiling.</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/overview_nether_layers.png">
-          <img src="../images/Navigation/overview_nether_layers.png" width="300">
+        <a href="images/Navigation/overview_nether_layers.png">
+          <img src="images/Navigation/overview_nether_layers.png" width="300">
         </a>
       </p>
     </td>
@@ -73,8 +73,8 @@ adjusted to start rendering below the Nether ceiling.</td>
     <td>Coordinates can be displayed on the edge of the map.</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/coordinates_edge.png">
-          <img src="../images/Navigation/coordinates_edge.png" width="300">
+        <a href="images/Navigation/coordinates_edge.png">
+          <img src="images/Navigation/coordinates_edge.png" width="300">
         </a>
       </p>
     </td>
@@ -84,8 +84,8 @@ adjusted to start rendering below the Nether ceiling.</td>
 zooming in, and edge coordinates when zooming out.</td>
     <td>
       <p align="center">
-        <a href="../images/Navigation/coordinates_grid.png">
-          <img src="../images/Navigation/coordinates_grid.png" width="300">
+        <a href="images/Navigation/coordinates_grid.png">
+          <img src="images/Navigation/coordinates_grid.png" width="300">
         </a>
       </p>
     </td>
@@ -98,7 +98,7 @@ MCA Selector parses structures and can display them as icons. Each icon can be e
 `View --> Select Structures`:
 
 <p align="center">
-  <img src="../images/Navigation/structures.png" alt="MCA Selector window showing enabled structure icons">
+  <img src="images/Navigation/structures.png" alt="MCA Selector window showing enabled structure icons">
 </p>
 
 ## Render options
