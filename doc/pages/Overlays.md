@@ -2,7 +2,7 @@ To have a better overview of what's happening in your world, MCA Selector gives 
 overlays. Overlays can display single values per chunk in the form of a color gradient with a minimum and maximum value.
 
 <p align="center">
-  <img src="../images/Overlays/overlays.png" alt="MCA Selector window showing an overlay for InhabitedTime">
+  <img src="images/Overlays/overlays.png" alt="MCA Selector window showing an overlay for InhabitedTime">
 </p>
 
 ## Configuration
@@ -13,7 +13,7 @@ when all values of an overlay are valid (e.g. minimum < maximum) and if it is se
 main window.
 
 <p align="center">
-  <img src="../images/Overlays/overlay_editor.png" alt="MCA Selector 'Edit overlays' dialog with examples">
+  <img src="images/Overlays/overlay_editor.png" alt="MCA Selector 'Edit overlays' dialog with examples">
 </p>
 
 Information about the currently rendered overlay is shown in the status bar at the bottom of the window. The status bar

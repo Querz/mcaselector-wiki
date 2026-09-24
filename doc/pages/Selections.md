@@ -3,7 +3,7 @@
 A selection can be created in multiple ways.
 
 <p align="center">
-  <img src="../images/Selections/selections.png" alt="MCA Selector window showing chunk and region selections">
+  <img src="images/Selections/selections.png" alt="MCA Selector window showing chunk and region selections">
 </p>
 
 ### Using the mouse

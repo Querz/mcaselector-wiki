@@ -71,7 +71,7 @@ replaced by the name of the `.sh`-file.
 "When I run `mcaselector-2.9.jar`, an error dialog appears that looks like this:"
 
 <p align="center">
-[[/images/Installation/missing_javafx.png|Popup dialog stating that a JavaFX installation is missing]]
+  <img src="images/Installation/missing_javafx.png" alt="Popup dialog stating that a JavaFX installation is missing">
 </p>
 
 Open the console or terminal on your OS.

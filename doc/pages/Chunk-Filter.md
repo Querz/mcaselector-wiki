@@ -4,7 +4,7 @@ these conditions can be chained together to create a very specific query describ
 selected, exported or deleted.
 
 <p align="center">
-  <img src="../images/Chunk-Filter/filter_chunks_query.png" alt="MCA Selector window showing the chunk filter query with an example">
+  <img src="images/Chunk-Filter/filter_chunks_query.png" alt="MCA Selector window showing the chunk filter query with an example">
 </p>
 
 ---
@@ -82,7 +82,7 @@ x-value, but the query `xPos > 0 OR InhabitedTime > "5 minutes"` will load all f
 ## Script
 
 <p align="center">
-  <img src="../images/Chunk-Filter/filter_chunks_script.png" alt="MCA Selector window showing the chunk filter script tab">
+  <img src="images/Chunk-Filter/filter_chunks_script.png" alt="MCA Selector window showing the chunk filter script tab">
 </p>
 
 The second tab in the Filter dialog is for custom scripts. Here, you can create your own Groovy script to filter for

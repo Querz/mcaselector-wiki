@@ -1,7 +1,7 @@
 The NBT Changer modifies the world files directly by changing specific values.
 
 <p align="center">
-  <img src="../images/NBT-Changer/change_nbt_query.png" alt="MCA Selector window showing the nbt changer dialog with an example query">
+  <img src="images/NBT-Changer/change_nbt_query.png" alt="MCA Selector window showing the nbt changer dialog with an example query">
 </p>
 
 ## Fields
@@ -60,7 +60,7 @@ will change / set the fields in *all* existing chunks.
 ## Script
 
 <p align="center">
-  <img src="../images/NBT-Changer/change_nbt_script.png" alt="MCA Selector window showing the nbt changer dialog with an example script">
+  <img src="images/NBT-Changer/change_nbt_script.png" alt="MCA Selector window showing the nbt changer dialog with an example script">
 </p>
 
 The second tab in the NBT Changer dialog is for custom scripts. Here, you can create your own Groovy script to change
