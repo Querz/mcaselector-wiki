@@ -43,13 +43,13 @@ The updated language files can then be added to the main project through a pull 
 
 ---
 
-## Updating color mappings
+## Updating mappings
 
-MCA Selector uses color pre-generated color mappings to render images of region files, where each Minecraft block (and
+MCA Selector uses pre-generated color mappings to render images of region files, where each Minecraft block (and
 sometimes block state) uses the average color of the topmost texture of a block model. As long as there is no significant
 change in how Minecraft handles textures, biomes and block models, these color mappings can be generated automatically.
 
-For this, the locally installed JRE needs to support JavaFX. By running the following command, the Minecraft client and
+To do this, the locally installed JRE needs to support JavaFX. By running the following command, the Minecraft client and
 server are automatically downloaded. The assets in the Minecraft client are parsed for the block models and textures, and
 the Minecraft server generates reports. In addition, heightmap information is extracted from an automatically created
 debug world, as well as structure and entity names.
@@ -69,6 +69,9 @@ Generating color mappings also relies on the file [color_properties.json](https:
 which contains specific rules for generating and rendering blocks and colors. It contains sets of block names that require
 biome dependent tinting, static tinting or simply a static color, as well as information about which blocks are foliage
 (important for rendering caves), water (for rendering water depth), air or transparent (ignored during rendering).
+
+The generator also produces files to help calculate the different height maps, and updated lists of all entities, biomes,
+structures and block names.
 
 ---
 

@@ -3,7 +3,7 @@ chunks of a second world using `Tools --> Import chunks`. After selecting a fold
 possible to import the chunks with a bunch of additional options.
 
 <p align="center">
-  <img src="/Querz/mcaselector/wiki/images/Chunk-Import/import_chunks.png" alt="MCA Selector window showing the chunk import">
+  <img src="../images/Chunk-Import/import_chunks.png" alt="MCA Selector window showing the chunk import dialog">
 </p>
 
 ## Options
@@ -54,5 +54,5 @@ the overlay has been placed.
 Copying can be cancelled by pressing `Esc`.
 
 <p align="center">
-  <img src="/Querz/mcaselector/wiki/images/Chunk-Import/copy_paste.png" alt="MCA Selector window showing copy-paste overlay">
+  <img src="../images/Chunk-Import/copy_paste.png" alt="MCA Selector window showing copy-paste overlay">
 </p>

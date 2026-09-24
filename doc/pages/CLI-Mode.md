@@ -4,15 +4,16 @@ A cheat-sheet with all commands can be found [here](https://gist.githubuserconte
 
 ## Modes
 
-| Mode             | Parameter       | Description                                                                   |
-|------------------|-----------------|-------------------------------------------------------------------------------|
-| Create selection | `--mode select` | Create a selection from a filter query and save it as a CSV file.             |
-| Export chunks    | `--mode export` | Export chunks based on a filter query and/or a selection.                     |
-| Import chunks    | `--mode import` | Import chunks with an optional offset.                                        |
-| Delete chunks    | `--mode delete` | Delete chunks based on a filter query and/or a selection.                     |
-| Change NBT       | `--mode change` | Changes NBT values in an entire world or only in chunks based on a selection. |
-| Cache images     | `--mode cache`  | Generates the cache images for an entire world.                               |
-| Generate image   | `--mode image`  | Generates a single image based on a selection.                                |
+| Mode               | Parameter           | Description                                                                   |
+|--------------------|---------------------|-------------------------------------------------------------------------------|
+| Create selection   | `--mode select`     | Create a selection from a filter query and save it as a CSV file.             |
+| Export chunks      | `--mode export`     | Export chunks based on a filter query and/or a selection.                     |
+| Import chunks      | `--mode import`     | Import chunks with an optional offset.                                        |
+| Defragment regions | `--mode defragment` | Defragment all regions or based on a selection.                               |
+| Delete chunks      | `--mode delete`     | Delete chunks based on a filter query and/or a selection.                     |
+| Change NBT         | `--mode change`     | Changes NBT values in an entire world or only in chunks based on a selection. |
+| Cache images       | `--mode cache`      | Generates the cache images for an entire world.                               |
+| Generate image     | `--mode image`      | Generates a single image based on a selection.                                |
 
 ## Mandatory and optional parameters
 
@@ -63,6 +64,16 @@ A cheat-sheet with all commands can be found [here](https://gist.githubuserconte
 | `--source-selection <csv-file>`      | A specific selection for the source world listing what chunks to import into the target world.                                                                                                                                                                                                               |            No            |
 | `--sections <range or number[,...]>` | One or a range of section indices. A range has the format `<from>:<to>`, inclusive. Omitting `<from>` sets the lowest possible value, omitting `<to>` sets the highest possible value. `:` or `true` means _all_ sections. Multiple ranges or single indices can be defined by separating them with a comma. | No, default all sections |
 
+### Mode: Defragment regions
+
+| Parameter                | Descriptiom                                                                          | Mandatory |
+|--------------------------|--------------------------------------------------------------------------------------|:---------:|
+| `--world <directory>`    | The world folder.                                                                    |    Yes    |
+| `--region <directory>`   | The world's region folder to override the region folder from `--world`.              |    No     |
+| `--poi <directory>`      | The world's poi folder.                                                              |    No     |
+| `--entities <directory>` | The world's entities folder.                                                         |    No     |
+| `--selection <csv-file>` | The csv-file to load a selection from. If omitted, all regions will be defragmented. |    No     |
+
 ### Mode: Delete chunks
 
 | Parameter                | Description                                                             |                 Mandatory                 |
@@ -95,7 +106,7 @@ This requires a working JavaFX installation.
 | `--world <directory>`             | The world folder for which to generate the cache files.                 |                            Yes                            |
 | `--region <directory>`            | The world's region folder to override the region folder from `--world`. |                            No                             |
 | `--output <directory>`            | Where the cache files will be saved.                                    |                            Yes                            |
-| `--zoom-level <1 or 2 or 4 or 8>` | The zoom level for which to generate the images.                        | No, generates images for all zoom levels if not specified |
+| `--zoom-level <1,2,4,8,16 or 32>` | The zoom level for which to generate the images.                        | No, generates images for all zoom levels if not specified |
 
 ### Mode: Generate image
 

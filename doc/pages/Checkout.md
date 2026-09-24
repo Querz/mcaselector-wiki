@@ -2,7 +2,7 @@ To checkout master:
 ```
 git clone https://github.com/Querz/mcaselector.git
 ```
-To build a standalone jar file on Mac OS or Linux using the Gradle Wrapper, run
+To build a standalone jar file on macOS or Linux using the Gradle Wrapper, run
 ```
 ./gradlew build
 ```

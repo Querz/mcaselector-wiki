@@ -3,7 +3,7 @@ structure of that chunk, including poi and entities data. Names and values can b
 (via drag & drop).
 
 <p align="center">
-  <img src="/Querz/mcaselector/wiki/images/Chunk-Editor/edit_chunk.png" alt="MCA Selector window showing the NBT editor">
+  <img src="../images/Chunk-Editor/edit_chunk.png" alt="MCA Selector window showing the NBT editor">
 </p>
 
 ## Edit NBT tags
